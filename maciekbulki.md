@@ -1,4 +1,4 @@
-###Bułki
+### Bułki
 Limit pamięci: 64 MB
 Maciuś codziennie rano chodzi do piekarni po bułki. Chłopiec wyznaje zasadę, że liczba bułek, które kupuje, zawsze musi być potęgą dwójki. Dodatkowo, zakup  bułek Maciuś łączy zawsze z zakupem  lizaków. Niestety mama Maciusia nie może tego zrozumieć i liczba bułek, które każe mu kupić nie zawsze jest potęgą dwójki. Jeśli tak nie jest, chłopiec kupuje więcej bułek niż zamawiała mama - liczba kupowanych przez niego bułek to najmniejsza potęga dwójki niemniejsza od liczby bułek zamawianych przez mamę.
 
