@@ -7,7 +7,7 @@ Tak więc, gdy np. mama Maciusia zamówi 8 bułek, chłopiec posłusznie kupi 8 
 Dla danej liczby bułek zamawianych przez mamę wyznacz, ile lizaków kupi Maciuś.
 
 Wejście
-W pierwszej linii wejścia znajduje się jedna liczba całkowita  () oznaczająca liczbę bułek zamówionych przez mamę Maciusia.
+W pierwszej linii wejścia znajduje się jedna liczba całkowita B (1 <= B <= 1000 000 000) oznaczająca liczbę bułek zamówionych przez mamę Maciusia.
 
 Wyjście
 Program powinien wypisać jedną liczbę oznaczającą liczbę lizaków zakupionych przez Maciusia.
