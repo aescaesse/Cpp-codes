@@ -1,8 +1,7 @@
 ### Trace in linear algebra
 In linear algebra, the trace (often abbreviated to tr) of a square matrix A is defined to be the sum of elements on the main diagonal (from the upper left to the lower right) of A.
-```
-∑i=1naii=a11+a22+...+ann
-```
+
+![](https://latex.codecogs.com/gif.latex?%5Cmathrm%7BTr%7D%28M%29%20%3D%20%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20a_%7Bi%20%5C%2C%20i%7D)
 
 ```c++
 #include <iostream>
