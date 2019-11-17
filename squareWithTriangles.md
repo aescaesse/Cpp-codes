@@ -5,22 +5,22 @@ using namespace std;
 
 int main()
 {
-    int n = 25, mt[101][101];
+    int n = 25, arr[101][101];
     for(int i = 1; i <= n; ++i){
         for(int j = 1; j <= n; ++j){
             if(i == j || i + j == n + 1)
-                mt[i][j] = 0;
+                arr[i][j] = 0;
             else if(i < j && i + j < n + 1)
-                mt[i][j] = 1;
+                arr[i][j] = 1;
             else if(i > j && i + j > n + 1)
-                mt[i][j] = 2;
+                arr[i][j] = 2;
             else
-                mt[i][j] = 3;
+                arr[i][j] = 3;
         }
     }
     for(int i = 1; i <= n; ++i){
         for(int j = 1; j <= n; ++j){
-            cout << mt[i][j] << " ";
+            cout << arr[i][j] << " ";
         }
         cout << '\n';
     }
