@@ -19,7 +19,7 @@ void DisplayMatrix(int matrix[][size])
 	cout << endl;
 }
 
-void sortmatrix(int matrix[][size])
+void SortMatrix(int matrix[][size])
 {
 	int swapped = 1;
 	while (swapped)
@@ -51,7 +51,7 @@ int main() {
 		for (int j = 0; j < size; j++)
 			matrix[i][j] = rand() % 100;
 	DisplayMatrix(matrix);
-	sortmatrix(matrix);
+	SortMatrix(matrix);
 	DisplayMatrix(matrix);
 
 	return 0;
