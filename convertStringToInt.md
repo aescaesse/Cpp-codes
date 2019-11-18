@@ -15,15 +15,12 @@ int main() {
 	string a;
 	in.open("numbers.txt");
 	out.open("sum.txt");
-	cout << "Output should be: \n";
 	while (getline(in, a))
 	{
 		int i = atoi(a.c_str());
-		cout << i << " ";
 		Sum += i;
 		out << i << " ";
 	}
-	cout << "= " << Sum;
 	out << "= " << Sum;
 	in.close();
 	out.close();
