@@ -140,3 +140,30 @@ int main()
 	return 0;
 }
 ```
+
+### Zadanie 5
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int Przeksztalc(int x)
+{
+	int i = 0;
+	while (x != 1)
+	{
+		i++;
+		if (x % 2 == 0) x /= 2;
+		else
+			x = 3 * x + 1;
+	}
+	return i;
+}
+int main()
+{
+	unsigned int X;
+	cin >> X;
+	cout << Przeksztalc(X);
+	return 0;
+}
+```
