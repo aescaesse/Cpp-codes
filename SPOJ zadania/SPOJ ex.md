@@ -103,3 +103,40 @@ int main()
 	return 0;
 }
 ```
+
+### Zadanie 4
+
+```cpp
+#include <iostream>
+using namespace std;
+
+bool sprawdz(int p)
+{
+	if (p < 10000000000 || p>99999999999) return false;
+	int m[11] = { 1,3,7,9,1,3,7,9,1,3,1 };
+	int Suma = 0, i = 0;
+	while (p < 0)
+	{
+		int liczba = 0;
+		liczba = p % 10;
+		liczba *= m[i];
+		Suma += liczba;
+		p /= 10;
+		i++;
+	}
+	if (Suma % 10 == 0)
+		return true;
+	else
+		return false;
+}
+int main()
+{
+	int pesel;
+	cin >> pesel;
+	if (sprawdz(pesel))
+		cout << "OK";
+	else
+		cout << "ERROR";
+	return 0;
+}
+```
