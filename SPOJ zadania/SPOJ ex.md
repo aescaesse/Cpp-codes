@@ -78,3 +78,27 @@ int main()
 	return 0;
 }
 ```
+
+### Zadanie 3
+```cpp
+#include <iostream>
+using namespace std;
+int CzySa(int A, int B)
+{
+	return A > 0 && B > 0 && B!=A;
+}
+int main()
+{
+	int A, B;
+	cin >> A >> B;
+	while (CzySa(A, B))
+	{
+		if (A > B)
+			A -= B;
+		else if (B > A)
+			B -= A;
+	}
+	cout << A<<" " << B;
+	return 0;
+}
+```
