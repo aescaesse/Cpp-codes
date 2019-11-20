@@ -27,7 +27,6 @@ int main()
 #include <iostream>
 #include <iomanip>
 using namespace std;
-
 int reversed = 0, n, m, Check, CheckL;
 void Reverse()
 {
@@ -39,14 +38,11 @@ void Reverse()
 		reversed = reversed * 10 + last;
 		m /= 10;
 	}
-
 }
-
 void AddReversed()
 {
 	n += reversed;
 }
-
 int IsPalindrome()
 {
 	unsigned long long int k = n;
@@ -63,7 +59,6 @@ int IsPalindrome()
 	else
 		return 0;
 }
-
 void Core()
 {
 	int i = 0;
@@ -76,7 +71,6 @@ void Core()
 	cout << n << " ";
 	cout << i;
 }
-
 int main()
 {
 	cin >> n;
