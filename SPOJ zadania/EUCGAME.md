@@ -14,6 +14,15 @@ Program wczytuje dwie liczby całkowite oznaczające początkowe liczby żetonó
 ### Wyjście
 Program wyświetla łączną liczbę żetonów obu graczy po zakończeniu gry
 
+Przykład
+```
+Wejście
+12 5
+
+Wyjście:
+1 1
+```
+
 ### Rozwiązanie
 ```cpp
 #include <iostream>
