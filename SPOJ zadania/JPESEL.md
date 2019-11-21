@@ -21,7 +21,7 @@ jedenastą cyfrę mnożymy przez 1.
 
 Tak uzyskane 11 iloczynów dodajemy do siebie. Jeśli ostatnia cyfra tej sumy jest zerem to podany PESEL jest prawidłowy. Przykład dla numeru PESEL 44051401458
 
-4 * 1 + 4 * 3 + 0*7 + 5*9 + 1*1 + 4*3 + 0*7 + 1*9 + 4*1 + 5*3 + 8*1 = 4 + 12 + 0 + 45 + 1 + 12 + 0 + 9 + 4 + 15 + 8 = 110
+4 * 1 + 4 * 3 + 0 * 7 + 5 * 9 + 1 * 1 + 4 * 3 + 0 * 7 + 1 * 9 + 4 * 1 + 5 * 3 + 8 * 1 = 4 + 12 + 0 + 45 + 1 + 12 + 0 + 9 + 4 + 15 + 8 = 110
 
 Źródło: www.wikipedia.pl
 
