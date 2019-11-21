@@ -33,6 +33,13 @@ Program wczytuje jedną 11-cyfrową liczbę
 ### Wyjście
 Program wyświetla napis OK jeśli wpisana liczba jest poprawnym numerem PESEL, w przeciwnym wypadku wyświetla napis "ERROR".
 
+Przykład
+```
+Wejście:
+44051401458
+Wyjście:
+OK
+```
 ### Rozwiązanie
 ```cpp
 #include <iostream>
