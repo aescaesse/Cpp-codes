@@ -17,10 +17,10 @@ Program wyświetla po ilu przekształceniach mamy liczbę 1
 
 Przykład
 ```
-Wejście
+Wejście:
 10
 
-Wyjście
+Wyjście:
 6
 ```
 ### Rozwiązanie
