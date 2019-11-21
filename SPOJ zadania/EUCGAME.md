@@ -13,8 +13,6 @@ Program wczytuje dwie liczby całkowite oznaczające początkowe liczby żetonó
 ### Wyjście
 Program wyświetla łączną liczbę żetonów obu graczy po zakończeniu gry
 
-
-
 Przykład
 ```
 Wejście
