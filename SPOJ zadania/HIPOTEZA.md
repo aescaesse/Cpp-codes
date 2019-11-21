@@ -22,7 +22,7 @@ Wejście
 
 Wyjście
 6
-
+```
 ### Rozwiązanie
 ```cpp
 #include <iostream>
