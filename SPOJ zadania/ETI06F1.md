@@ -1,7 +1,6 @@
 ## Polecenie 
-```
-ETI06F1 - Pole pewnego koła
-Wyznacz pole koła, którego okrąg jest przecięciem dwóch identycznych sfer o promieniu r. Odległość pomiędzy środkami sfer wynosi d. Wartości r oraz d podane na wejściu są liczbami zmiennoprzecinkowymi. Można założyć, że 1 <= d < 2 * r <= 2000.
+# ETI06F1 - Pole pewnego koła
+Wyznacz pole koła, którego okrąg jest przecięciem dwóch identycznych sfer o promieniu r. Odległość pomiędzy środkami sfer wynosi d. Wartości r oraz d podane na wejściu są liczbami zmiennoprzecinkowymi. Można założyć, że *1 <= d < 2 * r <= 2000*.
 
 Ilustracja pomocnicza treści
 <img src="https://www.spoj.com/content/mima:ETI06F1_1.jpg" />
@@ -15,6 +14,7 @@ Uwaga. W roli separatora dziesiętnego należy używać kropki (nie: przecinka).
 
 
 ### Przykład
+```
 Przykład 1
 
 Wejście:
