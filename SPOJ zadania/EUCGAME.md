@@ -1,6 +1,5 @@
 ### Polecenie
-# EUCGAME
-```
+# EUCGAME - Gra Euklidesa
 Gra Euklidesa przebiega według następujących zasad:
 
 W grze bierze udział dwóch graczy (A i B). Początkowo każdy z nich dysponuje pewną niezerową liczbą identycznych żetonów - odpowiednio a i b.
@@ -13,6 +12,8 @@ Program wczytuje dwie liczby całkowite oznaczające początkowe liczby żetonó
 
 ### Wyjście
 Program wyświetla łączną liczbę żetonów obu graczy po zakończeniu gry
+
+
 
 Przykład
 ```
