@@ -4,10 +4,10 @@ Wyznacz pole koła, którego okrąg jest przecięciem dwóch identycznych sfer o
 
 <img src="Zdjecia/ETI06F1_1.jpg" />
 
-Wejście
+### Wejście
 Na wejściu podane są dwie liczby zmiennoprzecinkowe r d oddzielone spacją, oznaczające odpowiednio promień sfery i odległość między środkami sfer.
 
-Wyjście
+### Wyjście
 Należy wypisać pojedynczą liczbę zmiennoprzecinkową S oznaczającą pole koła. Dopuszczalny błąd wyniku wynosi 0.01.
 
 Uwaga. W roli separatora dziesiętnego należy używać kropki (nie: przecinka). Można przyjąć, że stosunek obwodu koła do jego średnicy wynosi 3.141592654.
