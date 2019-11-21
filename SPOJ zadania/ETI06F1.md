@@ -12,7 +12,6 @@ Należy wypisać pojedynczą liczbę zmiennoprzecinkową S oznaczającą pole ko
 
 Uwaga. W roli separatora dziesiętnego należy używać kropki (nie: przecinka). Można przyjąć, że stosunek obwodu koła do jego średnicy wynosi 3.141592654.
 
-
 ### Przykład
 ```
 Przykład 1
